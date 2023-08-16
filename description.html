@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!--
+	Useful classes...
+	 school-section: creates a new block, with h1 for title
+	 keyvalue: within a school-section, creates a table with first column bolded
+	           and no borders
+-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title></title>
+
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+	  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<button type="button" class="navbar-toggle navbar-right" data-toggle="collapse" data-target="#myNavbar" id="burger">
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+				<span class="icon-bar" style="background-color: white"></span>
+			</button>
+
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">
+					<span class="hidden-xs" id="brand-big"></span>
+					<span class="visible-xs" id="brand-small"></span>
+				</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav navbar-right">
+				</ul>
+			</div>
+
+		</div>
+	</nav>
+
+	<div class="container">
+		<div class="school-header">
+			<a href="https://www.ccis.northeastern.edu" target="_blank"><img id="logo" class="img-responsive" src="img/NU_khoury.png" /></a>
+
+			<div id="info" class="row">
+				<div class="col-md-2"><span class="var-semester"></span></div>
+				<div class="col-md-2"><span class="var-section"></span></div>
+			</div>
+		</div>
+
+		<!-- FIXME -->
+<div class="school-section">
+<h1>Description</h1>
+<p>
+
+	This course examines the principles of mobile application design and development. Students will learn application design and development using the Android platform. Topics will include user interface design; user interface building, input methods; data handling; network techniques and URL loading; memory management; APIs, and, finally, specifics such as the use of mobile sensing. Students are expected to design and develop a professional-quality mobile application that addresses a real-world problem in an innovative way. Coursework will include project conception, design, implementation, and pilot testing mobile phone software applications..
+<br>
+</p>
+<h1>Learning Objectives</h1>
+<!-- <p style="text-decoration: underline">Computer Science</p> -->
+<ul>
+	<li>Learn the principles of mobile application development.</li>
+	<li>Build programming and scripting skills required to generate mobile applications.</li>
+	<li>Learn mobile user interface design and implementation.</li>
+	<li>Learn system-level programming skills, including multi-process and multi-activity communication.</li>
+	<li>Critique mobile applications on their design pros and cons</li>
+	<li>Utilize rapid prototyping techniques to design and develop sophisticated mobile interfaces</li>
+	<li>Program mobile applications for the Android operating system that use basic and advanced phone features</li>
+</ul>
+</div>
+
+	<div class="school-section">
+		<h1> Textbooks</h1>
+		There is no required textbook for this course. But the following books closely follow the weekly course schedule:
+		<ul>
+
+			<li>Android Programming: The Big Nerd Ranch Guide (5th Edition) by Bill Phillips, Chris Stewart, Brian Hardy, Kristin Marsicano, ISBN-13: 978-0137645541, Big Nerd Ranch Guides</li>
+			<li>Android App Development (1st Edition) by Herve Franceschi, ISBN-13: 978-1284092127, Jones & Bartlett Learning
+This is a very nice book and one of the few that provides slides</li>
+<li>Android Studio 4.2 Development Essentials - Java Edition, By Smyth, Neil (2021), Payload Media
+The Arctic Fox version is newer than the 4.2 version, but both books are very similar. An electronic copy of the 4.2 version is available for free for Northeastern students through O’Reilly, and information about accessing this will be in the course materials.  Both versions are available for purchase from Amazon (be sure to get the Java edition).  The 4.2 version has older screenshots in the tour of Android Studio UI, chapter 6, but it has a chapter on the profiler that has been removed from the Artic Fox version of the book.</li>
+<li>Android Cookbook by Darwin, I.F., 
+This book has "recipes" for solving many common Android problems, with great example code.</li>
+<li>
+	Making Musical Apps: Real-time audio synthesis on Android and iOS by Brinkman, P.,  This book will prove useful if you want to use sound in a sophisticated way.
+</li>
+<li>
+	Hello, Android: Introducing Google's Mobile Development Platform (4th edition) by Burnette, Ed, 
+	[available from Amazon, or free, online from the NEU library]. This is a good introduction for someone who knows Java or C# but is new to Android and Android Studio.  This book has been used as the primary textbook for this course in the past, but it is getting a bit dated.
+</li>
+<li>
+	Professional Android Sensor Programming 
+	[$25 at Amazon and available in the bookstore and available free, online from the NEU library]. This is a terrific resource for anyone interested in using sensors in mobile applications.
+</li>
+<li>
+	Android in Practice. By Collins, C. , Galpin, M., and Kappler, M.
+	This book will supplement Hello, Android.
+</li>
+
+		<strong>Note:</strong> NU students have free online access to most or all O'Reilly books via the NU
+		Library. Go to <a
+			href="https://library.northeastern.edu/research/resources/items/oreilly-for-higher-education-previously-safari-books-online">https://library.northeastern.edu/research/resources/items/oreilly-for-higher-education-previously-safari-books-online</a>
+		and follow the links. If asked to select your institution, select "None of the Above", which
+		is the first item on the menu, and log in with your northeastern.edu email address. This
+		will get you full access, and will also keep track of your favorites, etc.
+
+		<h1> List of Topics </h1>
+		The following (tentative) schedule is currently planned:
+    <ul>
+<li> Module 1: Introduction to Android, Android Studio (Installation & Environment), Basic ‘Hello World’ Project with Buttons and TextViews.
+	</li>
+<li> Module 2: Anatomy of an Android App, UI Design with Common elements, Working with multiple Activities and Intents, 
+	Intents with Extra and Shared Preferences
+	</li>
+<li> Module 3: Using Layouts and ListViews, ListView with Custom Layout & User-defined Data, Recycler View with CardView and Custom Layout
+	</li>
+<li> Module 4: Activity Life Cycle and Saving State</li>
+<li> Module 5: Fragment and LifeCycle, Communication between Fragments and/or Activities 
+	</li>
+<li> Module 6: Touch Events and Multi-touch Gestures</li>
+<li> Module 7: Android Sensors (Accelerometer, GPS Location, etc.)</li>
+<li> Module 8: Android Architecture Components (ViewModel and LiveData)
+	</li>
+<li> Module 9: 	Google Maps SDK </li>
+<li> Module 10: Device Storage (Internal and External)</li>
+<li> Module 11: Explicit & Implicit Intents: Audio and Video Playback, Camera Recording, Sending Emails, Storage Access Framework (using Cloud Storage), Overflow Menus, Content Providers and Resolvers
+	 </li>
+<li> Module 12: REST API with HTTP Connection and Async Tasks
+</li>
+<li> Module 13: Background Services (Starter and Bound), Threads, Runnable and ThreadPoolExecutor, Remote Bound Services with Messages and Handlers, Broadcast Intents and Broadcast Receivers 
+	</li>
+<li> Module 14: Using SQLite Databases, SQLite OpenHelper Class, Room API, Firebase & MongoDB, Widgets, </li>
+<li> Module 15: Material Design and Theming </li>
+<li> Module 16: Monetizing your App, Signing & Preparing app for Release 
+	 </li>
+
+    </ul>                        <p> The weekly outline / schedule can also be found on Canvas.</p>
+	</div>
+
+		<div class="school-section">
+                        <h1>Grading</h1>
+
+                        <p>
+				My general philosophy is: <strong>Your learn app developing by developing apps!</strong> To that effect, you will have the opportunity to demonstrate your knowledge of the course materials through regular app design and implementation work. Some of the work may have to be completed in groups.
+			</p>
+
+			<p>The final grade for this course will be
+                        calculated as a weighted average of scores for
+                        practice activities, weekly homeworks, and final project, to be computed as follows:
+<ul>
+  <li>Discussion: 10%</li>
+  <li>Assignments (might include practice exercises): 70%</li>
+  <li>Final {Group} Project: 20% </li>
+</ul>
+</p>
+
+			<h2>Grading Scale</h2>
+
+			<div class="row">
+				<div class="col-md-1"><code>A</code></div>
+				<div class="col-md-2"><samp>[93 - 100]</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>A-</code></div>
+				<div class="col-md-2"><samp>[90 - 93)</samp> </div>
+                                <div>(that is, 90 &le; your average
+				&lt; 93, etc.)</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>B+</code></div>
+				<div class="col-md-2"><samp>[87 - 90)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>B</code></div>
+				<div class="col-md-2"><samp>[83 - 87)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>B-</code></div>
+				<div class="col-md-2"><samp>[80 - 83) </samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>C+</code></div>
+				<div class="col-md-2"><samp>[77 - 80)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>C</code></div>
+				<div class="col-md-2"><samp>[73 - 77)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>C-</code></div>
+				<div class="col-md-2"><samp>[70 - 73)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>D+</code></div>
+				<div class="col-md-2"><samp>[67 - 70)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>D</code></div>
+				<div class="col-md-2"><samp>[63 - 67)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1"><code>D-</code></div>
+				<div class="col-md-2"><samp>[60 - 63)</samp></div>
+                        </div>
+
+			<div class="row">
+				<div class="col-md-1"><code>F</code></div>
+				<div class="col-md-2"><samp>[0 - 60)</samp></div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-1">&nbsp;</div>
+			</div>
+
+			<p>
+				Scores will not be rounded; however, a curve may be introduced at the Instructor's discretion.
+</p>
+
+<h2>Attendance</h2>
+<p>
+<ul>
+<li>For this online class, Attendance might be required for lab or recitation sessions. </li> 
+</ul>			
+
+<h2>Late Work and Makeup Policy</h2>
+<p>
+<ul>
+    <li>No Late work will be accepted for Practice Activities and Final Project. Assignments may be submitted late without excuse for up to 24 hrs but will incur a 15% penalty. No submission will be accepted after 24 hrs.</li>
+	<li>For assignments and pratice activities, you will have ONE makeup opportunity {each} during the semester (details will be announced on Canvas during the second half of the semester). </li>
+
+</ul>
+
+<h2>Final Project</h2>
+<ul>
+	<li>Final Project is <strong>REQUIRED</strong> and failure to submit the project will result in ‘F’ for the course. There is no exam in this course.</li>
+</ul>		</div>
+		
+		<!-- Just some space for prettiness :) -->
+		<div style="padding-bottom: 40px"></div>	
+
+		<div class="school-footer">
+			<footer>
+				<small><em>
+					<script>
+						document.write("This page was last modified on: " + document.lastModified +"");
+					</script>
+				</em></small>
+			</footer>
+		</div>
+	</div>
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/settings.js"></script>
+	<script>
+
+
+		$(document).ready(function(){
+
+			// enable tooltips
+			$('[data-toggle="tooltip"]').tooltip();
+
+			// prepare the page based upon settings
+			settingsReady();
+
+		});
+	</script>
+</body>
+</html>
