@@ -1,2 +1,1 @@
-# Summer-2023-Website
-Website for CS3520 (Summer 2023) @ Northeastern University
+Website for CS4520 (Fall 2023) @ Northeastern University

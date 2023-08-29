@@ -66,24 +66,19 @@
 <h1>Description</h1>
 <p>
 
-This course examines how to program in C++ in a robust and safe manner. C++ is an unsafe programming language, meaning each programmer — not the programming language — must enforce basic invariants concerning abstractions and modularity. The purpose of this course is to introduce students to the programming in C++ and its pitfalls; how standard libraries try to eliminate these pitfalls and fail; and what kind of tools programmers use to overcome the pitfalls.
-
-The course reviews basics, including scoping, typing, and primitive data structures. Discusses data types (primitive, array, structure, class, string); addressing/parameter mechanisms (value, pointer, reference); stacks; queues; linked lists; binary trees; hash tables; and the design of classes and class inheritance, emphasizing single inheritance. Considers the instantiation of objects, the trade-offs of stack vs. heap allocation, and the design of constructors and destructors. Emphasizes the need for a strategy for dynamic memory management. Addresses function and operator overloading; templates, the Standard Template Library (STL), and the STL components (containers, generic algorithms, iterators, adaptors, allocators, function objects); streams; exception handling; and system calls for processes and threads.
+	This course examines the principles of mobile application design and development. Students will learn application design and development using the Android platform. Topics will include user interface design; user interface building, input methods; data handling; network techniques and URL loading; memory management; APIs, and, finally, specifics such as the use of mobile sensing. Students are expected to design and develop a professional-quality mobile application that addresses a real-world problem in an innovative way. Coursework will include project conception, design, implementation, and pilot testing mobile phone software applications..
 <br>
 </p>
 <h1>Learning Objectives</h1>
 <!-- <p style="text-decoration: underline">Computer Science</p> -->
 <ul>
-  <li>Learn how to program C++ in a clear, robust, efficient, and safe manner.</li>
-  <li>Learn about simple and complex data structures in C++.</li>
-  <li>Learn about memory allocation and deallocation from both the C and C++ perspectives.</li>
-  <li>Develop a strategy for memory management that will avoid leaks.  </li>
-  <li>Learn how the features of C++ may be used in a productive way.</li>
-  <li>Learn about the pitfalls and bugs that may occur if C++ is used improperly.</li>
-  <li>Become knowledgeable about system libraries, especially, the STL.</li>
-  <li>Become knowledgeable using a unit testing framework.</li>
-  <li>Become knowledgeable using a low-level debugger.</li>
-  <li>Become knowledgeable using a memory debugger.</li>
+	<li>Learn the principles of mobile application development.</li>
+	<li>Build programming and scripting skills required to generate mobile applications.</li>
+	<li>Learn mobile user interface design and implementation.</li>
+	<li>Learn system-level programming skills, including multi-process and multi-activity communication.</li>
+	<li>Critique mobile applications on their design pros and cons</li>
+	<li>Utilize rapid prototyping techniques to design and develop sophisticated mobile interfaces</li>
+	<li>Program mobile applications for the Android operating system that use basic and advanced phone features</li>
 </ul>
 </div>
 
@@ -91,22 +86,26 @@ The course reviews basics, including scoping, typing, and primitive data structu
 		<h1> Textbooks</h1>
 		There is no required textbook for this course. But the following books closely follow the weekly course schedule:
 		<ul>
-			<li>Murach and Delamater - Murach's C++ Programming, 2018</a></li>
-			<li>Deitel and Deitel - C++ How to Program, 9th or 10th edition</a></li>
-		</ul>
-		We also use material from the following textbooks extensively during our lectures:
-		<ul>
-			<li>Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 (By Scott Meyers), Oreilly</a></li>
-			<li>Bjarne Stroustrup - The C++ Programming Language: C++11, 4th edition, ISBN-13: 978-0321563842, Addison-Wesley Professional</a></li>
-			<li>Richard Reese - Understand and Using C Pointers: Core Techniques for Memory Management, 1st edition, ISBN-13: 978-1449344184</a></li>
-		</ul>
-		The following reference books can also be used for some extra reading:
-		<ul>
-			<li>Advanced C++ Programming Cookbook (By Rian Quinn), Packt Publishing</a></li>
-			<li>Expert C++ (By Vardan Grigoryan, Shunguang Wu), Packt Publishing</a></li>
-			<li>C++ Templates: The Complete Guide (By David Vandevoorde, Nicolai M. Josuttis, Douglas Gregor), 2nd Edition, Addison-Wesley Professional</a></li>
-			<li>C++ Concurrency in Action, (By Anthony Williams), Second Edition, Manning Publications</a></li>
-		</ul>
+
+<li>Android Programming: The Big Nerd Ranch Guide (5th Edition) by Bill Phillips, Chris Stewart, Brian Hardy, Kristin Marsicano, ISBN-13: 978-0137645541, Big Nerd Ranch Guides</li>
+<li>Android App Development (1st Edition) by Herve Franceschi, ISBN-13: 978-1284092127, Jones & Bartlett Learning
+This is a very nice book and one of the few that provides slides</li>
+<li>Android Studio 4.2 Development Essentials - Java Edition, By Smyth, Neil (2021), Payload Media.,
+	The Arctic Fox version is newer than the 4.2 version, but both books are very similar. An electronic copy of the 4.2 version is available for free for Northeastern students through O’Reilly, and information about accessing this will be in the course materials.  Both versions are available for purchase from Amazon (be sure to get the Java edition).  The 4.2 version has older screenshots in the tour of Android Studio UI, chapter 6, but it has a chapter on the profiler that has been removed from the Artic Fox version of the book.</li>
+<li>Android Cookbook by Darwin, I.F., 
+	This book has "recipes" for solving many common Android problems, with great example code.</li>
+<li>Making Musical Apps: Real-time audio synthesis on Android and iOS by Brinkman, P.,  
+	This book will prove useful if you want to use sound in a sophisticated way.
+</li>
+<li>Hello, Android: Introducing Google's Mobile Development Platform (4th edition) by Burnette, Ed., 
+	[available from Amazon, or free, online from the NEU library]. This is a good introduction for someone who knows Java or C# but is new to Android and Android Studio.  This book has been used as the primary textbook for this course in the past, but it is getting a bit dated.
+</li>
+<li>Professional Android Sensor Programming 
+	[$25 at Amazon and available in the bookstore and available free, online from the NEU library]. This is a terrific resource for anyone interested in using sensors in mobile applications.
+</li>
+<li>Android in Practice. By Collins, C. , Galpin, M., and Kappler, M.
+	This book will supplement Hello, Android.
+</li>
 
 		<strong>Note:</strong> NU students have free online access to most or all O'Reilly books via the NU
 		Library. Go to <a
@@ -118,20 +117,33 @@ The course reviews basics, including scoping, typing, and primitive data structu
 		<h1> List of Topics </h1>
 		The following (tentative) schedule is currently planned:
     <ul>
-<li> Module 1: Basic Linux Commands; Using Makefile; Using GitHub; Hello World! Program</li>
-<li> Module 2: Variables, data types and operations; Using libraries like string and cmath; Conditional statements and loops</li>
-<li> Module 3: Number systems and bit-wise operations; Basic debugging; Working with iostream, file stream, string stream; Introduction to pointers</li>
-<li> Module 4: Built-in arrays, array and vector classes, and c-string; Functions, Overloading; Code Organization and using Namespaces</li>
-<li> Module 5: Pointers; Multi-dimensional Arrays and Double Pointers; C-Strings and String Manipulation Libraries</li>
-<li> Module 6: Dynamic memory allocation; Structures with pointer, enumerations, Unions, Bit-fields</li>
-<li> Module 7: Debugging (gnu debugger, and ddd), Memory Leak (valgrind); Standard Template Library</li>
-<li> Module 8: Standard Template Library (containers, iterators and algorithms) and Lamda expressions; Exceptions</li>
-<li> Module 9: Classes; Inheritance and Operator overloading; Object-oriented design</li>
-<li> Module 10: Inheritance and polymorphism; More object-oriented design; vtables and vpointers </li>
-<li> Module 11: Special members (rule of 0, rule of 3 and rule of 5); Smart pointers (unique vs shared & weak pointers) </li>
-<li> Module 12: Generic Programming with Templates, Template-based Data Structures; </li>
-<li> Module 13: Miscellaneous Topics: Test Driven Development, Code Coverage; Multi-threading and Asynchronous Programming in C++</li>
-<li> Module 14: Advanced Topics: L-value and R-value references, Perfect Forwarding with Variadic Template Arguments, Building C++ Libraries, </li>
+<li> Module 1: Introduction to Android, Android Studio (Installation & Environment), Basic ‘Hello World’ Project with Buttons and TextViews.
+	</li>
+<li> Module 2: Anatomy of an Android App, UI Design with Common elements, Working with multiple Activities and Intents, 
+	Intents with Extra and Shared Preferences
+	</li>
+<li> Module 3: Using Layouts and ListViews, ListView with Custom Layout & User-defined Data, Recycler View with CardView and Custom Layout
+	</li>
+<li> Module 4: Activity Life Cycle and Saving State</li>
+<li> Module 5: Fragment and LifeCycle, Communication between Fragments and/or Activities 
+	</li>
+<li> Module 6: Touch Events and Multi-touch Gestures</li>
+<li> Module 7: Android Sensors (Accelerometer, GPS Location, etc.)</li>
+<li> Module 8: Android Architecture Components (ViewModel and LiveData)
+	</li>
+<li> Module 9: 	Google Maps SDK </li>
+<li> Module 10: Device Storage (Internal and External)</li>
+<li> Module 11: Explicit & Implicit Intents: Audio and Video Playback, Camera Recording, Sending Emails, Storage Access Framework (using Cloud Storage), Overflow Menus, Content Providers and Resolvers
+	 </li>
+<li> Module 12: REST API with HTTP Connection and Async Tasks
+</li>
+<li> Module 13: Background Services (Starter and Bound), Threads, Runnable and ThreadPoolExecutor, Remote Bound Services with Messages and Handlers, Broadcast Intents and Broadcast Receivers 
+	</li>
+<li> Module 14: Using SQLite Databases, SQLite OpenHelper Class, Room API, Firebase & MongoDB, Widgets, </li>
+<li> Module 15: Material Design and Theming </li>
+<li> Module 16: Monetizing your App, Signing & Preparing app for Release 
+	 </li>
+
     </ul>                        <p> The weekly outline / schedule can also be found on Canvas.</p>
 	</div>
 
@@ -139,16 +151,17 @@ The course reviews basics, including scoping, typing, and primitive data structu
                         <h1>Grading</h1>
 
                         <p>
-				My general philosophy is: <strong>Your learn programming by doing programming!</strong> To that effect, you will have the opportunity to demonstrate your knowledge of the course materials through regular coding work. Some of the work may have to be completed in groups.
+				My general philosophy is: <strong>Your learn app developing by developing apps!</strong> To that effect, you will have the opportunity to demonstrate your knowledge of the course materials through regular app design and implementation work. Some of the work may have to be completed in groups.
 			</p>
 
 			<p>The final grade for this course will be
                         calculated as a weighted average of scores for
                         practice activities, weekly homeworks, and final project, to be computed as follows:
 <ul>
-  <li>Practice Activities: 15%</li>
-  <li>Assignments: 70%</li>
-  <li>Final {Group} Project: 15% </li>
+  <li>Projects: 60%</li>
+  <li>In-Class Work (attendance required to receive credit): 10%</li>
+  <li>Discussion: 10%</li>
+  <li>Final {Group} Project: 20% </li>
 </ul>
 </p>
 
@@ -227,7 +240,7 @@ The course reviews basics, including scoping, typing, and primitive data structu
 <h2>Attendance</h2>
 <p>
 <ul>
-<li>For this online class, no attendance is required. </li> 
+<li>For this online class, Attendance might be required for lab or recitation sessions. </li> 
 </ul>			
 
 <h2>Late Work and Makeup Policy</h2>

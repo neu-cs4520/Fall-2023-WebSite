@@ -1,9 +1,9 @@
 
 // FIXME
 var vars = {
-  'classNum': 'CS3520',
-  'className': 'Programming in C++',
-  'semester': 'Summer 2023',
+  'classNum': 'CS4520',
+  'className': 'Mobile Application Development',
+  'semester': 'Fall 2023',
   'section': '',
 };
 
